@@ -12,7 +12,9 @@
         "ui.ts",
         "button.ts",
         "clicker_game.ts",
-        "upgrade.ts"
+        "upgrade.ts",
+        "images.g.jres",
+        "images.g.ts"
     ],
     "testFiles": [
         "test.ts"

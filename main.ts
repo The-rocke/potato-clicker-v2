@@ -3,22 +3,8 @@ namespace SpriteKind {
 }
 info.setScore(0)
 clicker_game.setPpc(1)
-let spud = clicker_game.instanceSpud(sprites.create(img`
-    . . . . . . . . . . . . . . . . 
-    . . . . . . . . . . . . . . . . 
-    . . . . . . . . . . . . . . . . 
-    . . . . . . . . . . . . . . . . 
-    . . . . . . . . . . . . . . . . 
-    . . . . . . . . . . . . . . . . 
-    . . . . . . . . . . . . . . . . 
-    . . . . . . . . . . . . . . . . 
-    . . . . . . . . . . . . . . . . 
-    . . . . . . . . . . . . . . . . 
-    . . . . . . . . . . . . . . . . 
-    . . . . . . . . . . . . . . . . 
-    . . . . . . . . . . . . . . . . 
-    . . . . . . . . . . . . . . . . 
-    . . . . . . . . . . . . . . . . 
-    . . . . . . . . . . . . . . . . 
-    `, SpriteKind.Clickable))
+let Sexy_Potato = sprites.create(assets.image`Sexy Potato`, SpriteKind.Clickable)
+Sexy_Potato.setScale(3.5, ScaleAnchor.Middle)
+Sexy_Potato.setPosition(30, 60)
+let spud = clicker_game.instanceSpud(Sexy_Potato)
 let farmUpgrade = 0

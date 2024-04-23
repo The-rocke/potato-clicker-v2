@@ -1,0 +1,12 @@
+{
+    "image1": {
+        "data": "hwQQABAAAAAAAERETgAAAABARETuREQAAERERERERARATkRERO5OBEROTkRE5E4ERE7uRETkTgRETkREREROBERERERERE4ERERE7kRETgREREREROREBO5OTkRE5EQETkTuRETuRADuRERERO5EAEBEROTuTkQAQERE5EREAAAAQEQAAAAAAA==",
+        "mimeType": "image/x-mkcd-f4",
+        "displayName": "Sexy Potato"
+    },
+    "*": {
+        "mimeType": "image/x-mkcd-f4",
+        "dataEncoding": "base64",
+        "namespace": "myImages"
+    }
+}
