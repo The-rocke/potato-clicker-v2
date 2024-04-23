@@ -32,6 +32,7 @@ namespace upgrade {
             clicker_game.modifyScore(this.price * -1)
             this.upgradesOwned++
             this.price *= this.priceMod 
+        
         }
         showInfo() {
             this.sprite.sayText("Price: " + this.price + " Adds " + this.ppsBonus + " pps", 3)
