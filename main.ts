@@ -30,9 +30,11 @@ Farm_Upgrade_Clickable,
 1,
 10,
 2,
-"Sigma"
+"Potato"
 )
-Farm_Upgrade_Clickable.setPosition(120, 60)
-let Curser = sprites.create(assets.image`Curser`, SpriteKind.Player)
+Farm_Upgrade_Clickable.setPosition(120, 90)
+let Click_Upgrade = sprites.create(assets.image`Cursor Upgrade`, SpriteKind.Clickable)
+Click_Upgrade.setPosition(120, 30)
+let Curser = sprites.create(assets.image`Cursor 2`, SpriteKind.Player)
 Curser.changeScale(0.001, ScaleAnchor.Middle)
 ui.setCursor(Curser)
