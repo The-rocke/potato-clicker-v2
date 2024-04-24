@@ -2,6 +2,7 @@ import Button = button.Button
 import Upgrade = upgrade.Upgrade
 import UpgradeButton = upgrade.Upgrade
 import Spud = clicker_game.Spud
+import Clicker_Upgrade = button.ClickUpgrade
 
 //% block="UI" weight=102 color=#678f6c icon="\uf00b"
 //% groups=["UIManager", "Button"]
@@ -37,6 +38,12 @@ namespace ui {
     export function addUpgradeButton(sprite: Sprite,
         ppsBonus: number, basePrice: number, priceMod: number, upgradeType: string): int32 {
         const button = new UpgradeButton(sprite, ppsBonus, basePrice, priceMod, upgradeType)
+        buttonArr.push(button)
+        return buttonArr.length - 1
+    }
+    //% block="Add|Clicker|Button $sprite $price"
+    export function addClickerButton(sprite: Sprite, price: number): int32 {
+        const button = new Clicker_Upgrade(sprite, price)
         buttonArr.push(button)
         return buttonArr.length - 1
     }
